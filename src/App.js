@@ -4,10 +4,7 @@ import Home from './Home/Home';
 
 function App() {
   return (
-    <Routes>
-        <Route exact path="/" element={<Home/>}/>
-    </Routes>
-   
+    <Home/>
   );
 }
 

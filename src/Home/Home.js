@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './home.module.css'
 import Header from '../header/Header';
+
 import { Link } from "react-router-dom";
 import { grey } from '@mui/material/colors';
 
@@ -20,12 +21,12 @@ const Home = () => {
 
             </div>
             <div className={style[`cards`]}>
-                <div className={style[`card`]} >
+                <a className={style[`card`]} href='https://www.youtube.com/'>
                     <p style={{ color: 'black' }}>Cyber Recruitement</p>
-                </div>
-                <div className={style[`card`]}>
+                </a>
+                <a className={style[`card`]} href='https://www.google.com/'>
                     <p style={{ color: 'black' }}>Cyber Training</p>
-                </div>
+                </a>
 
             </div>
             <div className={style[`rect2`]} />
